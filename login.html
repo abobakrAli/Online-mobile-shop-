@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+
+    <nav id="navbar" class="navbar navbar-expand-lg  bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">MobiShop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="shopping.html">Shopping</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+
+    <div class="logReg" id="LR">
+        <div class="tabContainer">
+            <div class="buttonContainer">
+
+                <button onclick="showPanel(0,'#b06afe')" class="logPanel">Login</button>
+
+                <button onclick="showPanel(1,'#40a6ff')" class="regPanel" >Sign Up</button>
+
+            </div>
+            <div class="tabPanel">
+                <h1 class="loginSpan">MobiShop</h1>
+                <input type="text" class="form-control log" placeholder="E-mail">
+                <input class="form-control log" placeholder="Password" type="password">
+                <button class="btn btn-light logBtn" id="logButn">Login</button>
+                <div class="SocialMediaLogin">
+                    <h5>Login with</h5><i class="fab fa-facebook fb"></i><i class="fab fa-google goo"></i>
+                </div>
+            </div>
+            <div class="tabPanel">
+                <h1 class="regSpan">MobiShop</h1>
+                <input class="form-control reg" placeholder="E-mail">
+                <input class="form-control reg" placeholder="Password" type="password">
+                <input class="form-control reg" placeholder="Confirm Password" type="password">
+                <input class="form-control reg" placeholder="Mobile Phone">
+                <button class="regBtn btn btn-primary" id="regButn">Sign up</button>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="registerSucc">
+        <h1 >
+            successful sign-up
+        </h1>
+    </div>
+
+    
+    <div id="loginSucc">
+        <h1 >
+            WELCOME
+        </h1>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
